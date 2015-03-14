@@ -1,0 +1,24 @@
+package server
+
+const (
+	ROOM_STATUS_WAIT  int32 = 1
+	ROOM_STATUS_READY int32 = 2
+)
+
+const (
+	CARD_TYPE_SHIFU        int32 = 1
+	CARD_TYPE_WUKONG       int32 = 2
+	CARD_TYPE_BAJIE        int32 = 3
+	CARD_TYPE_SHASENG      int32 = 4
+	CARD_TYPE_LAOYAOJING   int32 = 5
+	CARD_TYPE_DAYAOJING    int32 = 6
+	CARD_TYPE_ZHONGYAOJING int32 = 7
+	CARD_TYPE_XIAOYAOJING  int32 = 8
+	CARD_TYPE_JOCKER       int32 = 9
+)
+
+const (
+	ERR_NO_LOGIN     int32 = 1
+	ERR_REQUEST_ERR  int32 = 2
+	ERR_WRONG_METHOD int32 = 2
+)
